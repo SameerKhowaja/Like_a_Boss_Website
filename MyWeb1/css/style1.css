@@ -3,6 +3,11 @@ body {
     margin: 0;
     background: #eee;
     height: auto;
+    background-image: url("../img/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
 }
 
 h1 {
@@ -10,6 +15,7 @@ h1 {
     font-size: 2.5rem;
     text-transform: uppercase;
     margin: 0;
+    color: white;
 }
 
 h2 {
@@ -17,6 +23,7 @@ h2 {
     font-size: 1.2rem;
     text-transform: capitalize;
     margin: 0;
+    color: white;
 }
 
 img {
@@ -46,7 +53,7 @@ main {
 }
 
 #landing-text h2 {
-    color: #888;
+    color: white;
 }
 
 #landing-image {
@@ -86,11 +93,13 @@ main {
     display: inline-block;
     padding-right: 1rem;
     padding-left: 1rem;
+    color: white;
 }
 
 .caption {
     padding: 0.8rem;
     text-align: center;
+    color: white;
 }
 
 footer {
@@ -103,19 +112,33 @@ footer {
 footer h3 {
     font-size: 3rem;
     margin-bottom: 0;
+    color: white;
 }
 
 #my-img img {
     border: 3px solid #73AD21;
-    width: 250px;
+    width: 200px;
     height: 250px;
     background-repeat: no-repeat;
-    float: right;
     margin-right: 20px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 #my-img h1 {
-    float: Left;
+    text-align: center;
     margin-top: 20px;
     margin-left: 20px;
+    color: white;
+}
+
+#abc h1 {
+    text-align: center;
+}
+
+#images p {
+    color: white;
 }

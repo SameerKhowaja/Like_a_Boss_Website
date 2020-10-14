@@ -129,6 +129,8 @@ header {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 5px;
+    width: 250px;
+    height: 250px;
 }
 
 #skills-left {
