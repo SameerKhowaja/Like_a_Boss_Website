@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Welcome to Mind Game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/jquery.min.m.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src='js/script.js'></script>
+
+    <style>
+        body {
+            background-image: url("images/background.png");
+        }
+    </style>
+
+</head>
+
+<body onload="setWindowLoad()">
+    <div class="wideBox">
+        <div id="time">
+            <h2>Fruits Game using JQuery</h2>
+        </div>
+
+        <div id="scoreLevel">
+            <h3 id="lvl"> Score: <span id="scoring">0</span> &nbsp&nbsp</h3>
+            <h3 id="sc">&nbsp&nbsp Level: <span id="levels">1</span> </h3>
+        </div>
+        <div id="tim">
+            <h2 id="s">Timer: <span id="timer"></span> seconds</h2>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="cardPile"> </div>
+        <div id="arrow"><img src="images/arrow.png" alt="arrow"></div>
+        <div id="cardSlots"> </div>
+
+        <div id="successMessage">
+            <h2>Game Over!</h2>
+            <h2>Wanna Play Again</h2>
+            <button onclick="refreshPage()">Save Data & Play Again</button>
+        </div>
+    </div>
+
+    <audio id="hitAudio">
+        <source src="audio/hit.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="missAudio">
+        <source src="audio/miss.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="outAudio">
+        <source src="audio/out.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+
+</html>
